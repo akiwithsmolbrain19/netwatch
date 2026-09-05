@@ -1,0 +1,5 @@
+port_scan_min_ports: 10
+repeat_min_attempts: 15
+dns_nxdomain_min: 5
+flood_min_pps: 20.0
+beacon_cv_max: 0.25

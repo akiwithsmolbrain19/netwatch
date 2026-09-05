@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netwatch"
+version = "1.0.0"
+description = "Defensive network threat detection and PCAP analysis (lab use)"
+requires-python = ">=3.10"
+
+[project.scripts]
+netwatch = "netwatch.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["netwatch*"]
