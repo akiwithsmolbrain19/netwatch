@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="202" font-family="monospace" font-size="14">
+<rect width="940" height="202" rx="8" fill="#1e1e2e"/>
+<circle cx="28" cy="22" r="6" fill="#f38ba8"/><circle cx="48" cy="22" r="6" fill="#f9e2af"/><circle cx="68" cy="22" r="6" fill="#a6e3a1"/>
+<text x="92" y="27" fill="#9399b2" font-size="13">netwatch — analyze sample_data/scan.pcap (synthetic)</text>
+<text x="16" y="60" fill="#a6e3a1">1 finding(s):</text>
+<text x="16" y="80" fill="#a6e3a1">[HIGH    ] NW-101 Possible port scan | 198.51.100.7 -&gt; - | 25 unique dports in 60s window</text>
+<text x="16" y="100" fill="#cdd6f4">           rationale: High distinct-port fan-out from a single source is the classic scan heuristic.</text>
+<text x="16" y="120" fill="#cdd6f4">           validate : Confirm SYN-without-full-handshake ratio in Wireshark; check whether source is an approved scann</text>
+<text x="16" y="140" fill="#cdd6f4"> </text>
+<text x="16" y="160" fill="#cdd6f4">Correlated hosts (priority order):</text>
+<text x="16" y="180" fill="#cdd6f4">  198.51.100.7: 1 findings [&#x27;NW-101&#x27;] max=high score=7.5</text>
+</svg>

@@ -1,0 +1,7 @@
+1 finding(s):
+[HIGH    ] NW-101 Possible port scan | 198.51.100.7 -> - | 25 unique dports in 60s window
+           rationale: High distinct-port fan-out from a single source is the classic scan heuristic.
+           validate : Confirm SYN-without-full-handshake ratio in Wireshark; check whether source is an approved scanner.
+
+Correlated hosts (priority order):
+  198.51.100.7: 1 findings ['NW-101'] max=high score=7.5

@@ -1,0 +1,9 @@
+1 finding(s):
+[HIGH    ] NW-101 Possible port scan | 198.51.100.7 -> - | 25 unique dports in 60s window
+
+Correlated hosts (priority order):
+  198.51.100.7: 1 findings ['NW-101'] max=high score=7.5
+Wrote JSON: /tmp/nw.json
+Wrote HTML: /tmp/nw.html
+Stored 1 finding(s) in /tmp/nw.db
+#1 NW-101 [high] 198.51.100.7 ->  status=open score=7.5

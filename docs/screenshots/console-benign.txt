@@ -1,0 +1,1 @@
+No findings. Traffic did not cross any detection thresholds.

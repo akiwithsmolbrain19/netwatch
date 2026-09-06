@@ -95,6 +95,16 @@ Correlated hosts (priority order):
 
 Benign capture yields: `No findings. Traffic did not cross any detection thresholds.`
 
+## Screenshots (synthetic lab traffic)
+
+All captures below come from the shipped synthetic PCAPs (`sample_data/`, RFC5737 TEST-NET addresses) — reproduce with `make demo` (requires `tshark`).
+
+![Console detection — NW-101 port scan on synthetic scan.pcap](docs/screenshots/console-detect.svg)
+
+![Report + case workflow — JSON/HTML/SQLite outputs and case list](docs/screenshots/cases-workflow.svg)
+
+The full single-file HTML report from the same run is saved at [`docs/screenshots/scan.html`](docs/screenshots/scan.html) — open it in a browser (local file only). Raw JSON output follows the same shape as `reports/` artifacts.
+
 ## Sample investigation
 
 Lab scenario `scan.pcap` (all addresses RFC 5737 TEST-NET, synthetic):
