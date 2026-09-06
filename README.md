@@ -142,10 +142,6 @@ status, config validation (incl. YAML fallback + severity overrides), CLI error 
   SYN/query-only and don't represent real adversary behavior; counts are
   packet-based, not flow-based.
 
-## Future improvements
-
-Per-subnet baselines, JA3/TLS features, full DNS answer ingestion, stream
-reassembly, allowlist config, PDF export.
 
 ## Legal/ethical scope
 
